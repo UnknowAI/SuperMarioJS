@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300" rel="stylesheet"> 
     <style>
         * {
             image-rendering: optimizeSpeed!important;             /* STOP SMOOTHING, GIVE ME SPEED  */
@@ -11,13 +12,30 @@
             image-rendering: optimize-contrast!important;         /* CSS3 Proposed                  */
             -ms-interpolation-mode: nearest-neighbor!important;   /* IE8+                           */
         }
+        h3 {
+            margin-left: 33%;
+            margin-right: 33%;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            text-align: center;
+            font-family: 'Montserrat', sans-serif;
+            color: #777;
+            box-shadow: inset 0px 0px 2px;
+        }
         .sjs {
-          background-color: #ABABAB;
+            background-color: #333;
+            margin-left: 50%;
+            transform: translateX(-50%);
         }
     </style>
 </head>
 <body>
+    <h3>Super Mario NES Open Source</h4>
+    
     <script src="js/sprite.js"></script>
+
+    <script src="js/init.js"></script>
     <script src="js/mario.js"></script>
+    <script src="js/game.js"></script>
 </body>
 </html>
